@@ -1,11 +1,11 @@
-About django-readers
-====================
+About django-readers-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-readers-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.django-readers.org
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-readers-feedstock/blob/main/LICENSE.txt)
 
 Summary: A lightweight function-oriented toolkit for Django projects.
 
