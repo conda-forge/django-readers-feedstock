@@ -1,13 +1,13 @@
 {% set name = "django-readers" %}
-{% set version = "2.4.0" %}
+{% set version = "2.5.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/django-readers-{{ version }}.tar.gz
-  sha256: 56b69d3b1fa12e1b515fa92bd62798cd1425546cad9d088122b4e5d8446b2ecb
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: b00529c73842b4af69d3e44f6c362dc4ce8122cbda9b85034216a1236c26a56a
 
 build:
   noarch: python
